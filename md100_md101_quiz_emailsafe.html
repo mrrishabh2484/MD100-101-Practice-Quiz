@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD-100 &amp; MD-101 Practice Quiz (Printable / Email-safe)</title>
+<style>
+:root{--bg:#f6f8fb;--surf:#fff;--ink:#16202e;--muted:#5c6b7f;--accent:#1560ff;--bd:#dfe5ee;--chip:#eef2f8;--okbg:#e5f6ec;--okbd:#2fae6a;--okfg:#0b7a3b;}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,system-ui,sans-serif;margin:0;padding:26px 16px 70px;background:var(--bg);color:var(--ink);line-height:1.55;-webkit-text-size-adjust:100%}
+.wrap{max-width:820px;margin:0 auto}
+header{text-align:center;margin-bottom:22px}
+h1{font-size:1.55rem;margin:0 0 6px;letter-spacing:-.02em}
+.sub{color:var(--muted);font-size:.95rem}
+.info{background:var(--surf);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin:0 0 18px;font-size:.9rem;color:var(--muted)}
+.toc{background:var(--surf);border:1px solid var(--bd);border-radius:12px;padding:6px 16px 10px;margin:0 0 22px}
+.toc h2{font-size:1rem;margin:12px 0 6px}
+.toc table{width:100%;border-collapse:collapse;font-size:.88rem}
+.toc td{padding:5px 0;border-bottom:1px solid var(--bd)}
+.toc td:last-child{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.q{background:var(--surf);border:1px solid var(--bd);border-radius:14px;padding:18px 18px 8px;margin:0 0 16px}
+.qtop{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+.tag{font-size:.68rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);background:var(--chip);padding:4px 9px;border-radius:999px}
+.qt{font-size:1.06rem;font-weight:600;margin:6px 0 12px}
+.opts{list-style:none;margin:0 0 6px;padding:0}
+.opts li{padding:8px 12px;border:1px solid var(--bd);border-radius:9px;margin-bottom:7px;font-size:.98rem}
+.opts li b{color:var(--muted);margin-right:4px}
+.rev{margin:6px 0 12px}
+.rev summary{cursor:pointer;font-weight:600;color:var(--accent);font-size:.92rem;padding:8px 0;list-style:revert}
+.revbody{margin-top:8px;padding:12px 14px;background:var(--okbg);border:1px solid var(--okbd);border-radius:10px}
+.correct{margin:0 0 8px;color:var(--okfg)}
+.exp{margin:0;font-size:.94rem}
+footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:24px}
+@media print{
+ body{background:#fff;padding:0.4in}
+ .q,.info,.toc{break-inside:avoid;border:1px solid #ccc}
+ .rev[open] .revbody,.revbody{background:#eef7f0}
+ details{}
+ details:not([open]) .revbody{display:block} /* show answers when printed */
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+ <h1>MD-100 &amp; MD-101 Practice Quiz</h1>
+ <div class="sub">122 questions &middot; email-safe &amp; printable &middot; no internet or scripts required</div>
+</header>
+<div class="info">Tap <b>&ldquo;Reveal answer &amp; explanation&rdquo;</b> under any question to check yourself. This version uses no JavaScript, so it opens correctly from an email attachment on any phone or computer. Tip: when printed or exported to PDF, all answers show automatically.</div>
+<div class="toc">
+ <h2>Questions by topic</h2>
+ <table><tr><td>MD-100 · Connectivity</td><td>13</td></tr><tr><td>MD-100 · Deploy</td><td>14</td></tr><tr><td>MD-100 · Devices &amp; Data</td><td>20</td></tr><tr><td>MD-100 · Maintain</td><td>14</td></tr><tr><td>MD-101 · Apps</td><td>11</td></tr><tr><td>MD-101 · Compliance</td><td>11</td></tr><tr><td>MD-101 · Deploy</td><td>12</td></tr><tr><td>MD-101 · Identity</td><td>13</td></tr><tr><td>MD-101 · Protect</td><td>14</td></tr></table>
+</div>
+<article class="q" id="q1">
+  <div class="qtop"><span class="num">1</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which two hardware features are mandatory for a Windows 11 installation?</p>
+  <ul class="opts"><li class=""><b>A.</b> BIOS and MBR disk</li><li class="ans"><b>B.</b> TPM 2.0 and UEFI Secure Boot</li><li class=""><b>C.</b> 32-bit CPU and 2 GB RAM</li><li class=""><b>D.</b> Legacy boot and a GPT disk</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> TPM 2.0 and UEFI Secure Boot</p>
+    <p class="exp">Windows 11 requires TPM 2.0 and UEFI firmware with Secure Boot capability, along with a 64-bit CPU, 4 GB RAM, and 64 GB storage.</p></div>
+  </details>
+</article>
+<article class="q" id="q2">
+  <div class="qtop"><span class="num">2</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">You need to move a user's files, application settings, and profile to a brand-new PC. Which tool do you use?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> USMT (ScanState and LoadState)</li><li class=""><b>B.</b> BitLocker</li><li class=""><b>C.</b> Windows Configuration Designer</li><li class=""><b>D.</b> Storage Spaces</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> USMT (ScanState and LoadState)</p>
+    <p class="exp">The User State Migration Tool captures state with ScanState and restores it with LoadState. It supports side-by-side and wipe-and-load migrations.</p></div>
+  </details>
+</article>
+<article class="q" id="q3">
+  <div class="qtop"><span class="num">3</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which deployment method reconfigures an existing Windows installation without reimaging it?</p>
+  <ul class="opts"><li class=""><b>A.</b> MDT task sequence</li><li class="ans"><b>B.</b> A provisioning package (.ppkg) built in Windows Configuration Designer</li><li class=""><b>C.</b> A clean install from USB</li><li class=""><b>D.</b> SCCM operating system deployment</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> A provisioning package (.ppkg) built in Windows Configuration Designer</p>
+    <p class="exp">Provisioning packages apply settings, apps, and configuration to an already-installed OS, avoiding a full reimage. They are created with Windows Configuration Designer.</p></div>
+  </details>
+</article>
+<article class="q" id="q4">
+  <div class="qtop"><span class="num">4</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">A device runs 32-bit Windows 10. You want 64-bit Windows 11. What is required?</p>
+  <ul class="opts"><li class=""><b>A.</b> An in-place upgrade</li><li class="ans"><b>B.</b> A clean (custom) install</li><li class=""><b>C.</b> Windows Update only</li><li class=""><b>D.</b> A provisioning package</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> A clean (custom) install</p>
+    <p class="exp">You cannot change processor architecture (32-bit to 64-bit) with an in-place upgrade. A clean install is required.</p></div>
+  </details>
+</article>
+<article class="q" id="q5">
+  <div class="qtop"><span class="num">5</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which activation method is best for a large enterprise with 200+ networked PCs that should auto-reactivate periodically?</p>
+  <ul class="opts"><li class=""><b>A.</b> Retail key</li><li class=""><b>B.</b> MAK</li><li class="ans"><b>C.</b> KMS (Key Management Service)</li><li class=""><b>D.</b> OEM key</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> KMS (Key Management Service)</p>
+    <p class="exp">KMS activates clients on the local network and requires them to reactivate every 180 days. It needs a minimum client count (25 for Windows clients).</p></div>
+  </details>
+</article>
+<article class="q" id="q6">
+  <div class="qtop"><span class="num">6</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which Windows edition is the minimum required to join an Active Directory domain and use BitLocker?</p>
+  <ul class="opts"><li class=""><b>A.</b> Home</li><li class="ans"><b>B.</b> Pro</li><li class=""><b>C.</b> S mode</li><li class=""><b>D.</b> Family</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Pro</p>
+    <p class="exp">Windows Home cannot join a domain or use BitLocker. Pro (and above) supports domain join, BitLocker, Hyper-V, and Group Policy.</p></div>
+  </details>
+</article>
+<article class="q" id="q7">
+  <div class="qtop"><span class="num">7</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">A folder has NTFS 'Modify' for a user but the Share permission is 'Read'. What is the effective permission when the user connects over the network?</p>
+  <ul class="opts"><li class=""><b>A.</b> Modify</li><li class=""><b>B.</b> Full Control</li><li class="ans"><b>C.</b> Read</li><li class=""><b>D.</b> No access</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> Read</p>
+    <p class="exp">When NTFS and Share permissions combine over the network, the most restrictive effective permission applies. Read is more restrictive than Modify.</p></div>
+  </details>
+</article>
+<article class="q" id="q8">
+  <div class="qtop"><span class="num">8</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">A user has Allow-Read via a group and an explicit Deny-Write on a file. What can they do?</p>
+  <ul class="opts"><li class=""><b>A.</b> Read and write</li><li class="ans"><b>B.</b> Read only; write is denied</li><li class=""><b>C.</b> Nothing</li><li class=""><b>D.</b> Full control</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Read only; write is denied</p>
+    <p class="exp">Permissions are cumulative, but an explicit Deny overrides Allow. The user keeps Read but is denied Write.</p></div>
+  </details>
+</article>
+<article class="q" id="q9">
+  <div class="qtop"><span class="num">9</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">You move a file to a different folder on the SAME NTFS volume. What happens to its permissions?</p>
+  <ul class="opts"><li class=""><b>A.</b> It inherits the destination's permissions</li><li class="ans"><b>B.</b> It keeps its original permissions</li><li class=""><b>C.</b> All permissions are removed</li><li class=""><b>D.</b> It becomes read-only</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> It keeps its original permissions</p>
+    <p class="exp">Moving within the same NTFS volume retains original permissions. Copying, or moving to a different volume, inherits the destination's permissions.</p></div>
+  </details>
+</article>
+<article class="q" id="q10">
+  <div class="qtop"><span class="num">10</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which technology encrypts an entire operating-system volume and can use the TPM?</p>
+  <ul class="opts"><li class=""><b>A.</b> EFS</li><li class="ans"><b>B.</b> BitLocker</li><li class=""><b>C.</b> NTFS compression</li><li class=""><b>D.</b> Storage Spaces</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> BitLocker</p>
+    <p class="exp">BitLocker encrypts whole volumes and leverages the TPM. EFS encrypts individual files/folders per user.</p></div>
+  </details>
+</article>
+<article class="q" id="q11">
+  <div class="qtop"><span class="num">11</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">You want to encrypt just a few sensitive files for one user, tied to their account. Best choice?</p>
+  <ul class="opts"><li class=""><b>A.</b> BitLocker</li><li class=""><b>B.</b> BitLocker To Go</li><li class="ans"><b>C.</b> EFS (Encrypting File System)</li><li class=""><b>D.</b> Storage Spaces parity</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> EFS (Encrypting File System)</p>
+    <p class="exp">EFS encrypts individual files or folders and is tied to the user's certificate/account. BitLocker works at the volume level.</p></div>
+  </details>
+</article>
+<article class="q" id="q12">
+  <div class="qtop"><span class="num">12</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which Storage Spaces resiliency type requires at least three disks and can survive a single drive failure while being space-efficient?</p>
+  <ul class="opts"><li class=""><b>A.</b> Simple</li><li class=""><b>B.</b> Two-way mirror</li><li class="ans"><b>C.</b> Parity</li><li class=""><b>D.</b> Spanned</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> Parity</p>
+    <p class="exp">Parity spaces use at least three disks, tolerate one drive failure, and are more space-efficient than mirroring (similar to RAID-5).</p></div>
+  </details>
+</article>
+<article class="q" id="q13">
+  <div class="qtop"><span class="num">13</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">You need to encrypt a USB flash drive. Which feature do you use?</p>
+  <ul class="opts"><li class=""><b>A.</b> EFS</li><li class="ans"><b>B.</b> BitLocker To Go</li><li class=""><b>C.</b> Storage Spaces</li><li class=""><b>D.</b> File History</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> BitLocker To Go</p>
+    <p class="exp">BitLocker To Go extends BitLocker encryption to removable drives such as USB flash drives.</p></div>
+  </details>
+</article>
+<article class="q" id="q14">
+  <div class="qtop"><span class="num">14</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which file system must be used to enable NTFS permissions, EFS, and files larger than 4 GB on a fixed disk?</p>
+  <ul class="opts"><li class=""><b>A.</b> FAT32</li><li class=""><b>B.</b> exFAT</li><li class="ans"><b>C.</b> NTFS</li><li class=""><b>D.</b> ReFS</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> NTFS</p>
+    <p class="exp">NTFS supports permissions, EFS, compression, and large files. FAT32 has a 4 GB per-file limit.</p></div>
+  </details>
+</article>
+<article class="q" id="q15">
+  <div class="qtop"><span class="num">15</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">A PC shows an IP of 169.254.10.5. What does this indicate?</p>
+  <ul class="opts"><li class=""><b>A.</b> A static public IP</li><li class="ans"><b>B.</b> APIPA — the client could not reach a DHCP server</li><li class=""><b>C.</b> A valid DHCP lease</li><li class=""><b>D.</b> An IPv6 address</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> APIPA — the client could not reach a DHCP server</p>
+    <p class="exp">The 169.254.x.x range is APIPA (Automatic Private IP Addressing), assigned when no DHCP server responds.</p></div>
+  </details>
+</article>
+<article class="q" id="q16">
+  <div class="qtop"><span class="num">16</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which command clears the local DNS resolver cache?</p>
+  <ul class="opts"><li class=""><b>A.</b> ipconfig /renew</li><li class="ans"><b>B.</b> ipconfig /flushdns</li><li class=""><b>C.</b> ipconfig /release</li><li class=""><b>D.</b> nslookup /clear</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> ipconfig /flushdns</p>
+    <p class="exp">ipconfig /flushdns clears the DNS resolver cache. /renew and /release manage DHCP leases.</p></div>
+  </details>
+</article>
+<article class="q" id="q17">
+  <div class="qtop"><span class="num">17</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which default port does Remote Desktop Protocol (RDP) use?</p>
+  <ul class="opts"><li class=""><b>A.</b> 22</li><li class=""><b>B.</b> 443</li><li class="ans"><b>C.</b> 3389</li><li class=""><b>D.</b> 80</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> 3389</p>
+    <p class="exp">RDP listens on TCP 3389 by default. Note that only Pro and higher editions can act as an RDP host.</p></div>
+  </details>
+</article>
+<article class="q" id="q18">
+  <div class="qtop"><span class="num">18</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">A helpdesk technician needs to view and control a user's current desktop session to assist them. Which tool fits best?</p>
+  <ul class="opts"><li class=""><b>A.</b> Remote Desktop</li><li class="ans"><b>B.</b> Quick Assist / Remote Assistance</li><li class=""><b>C.</b> PowerShell Remoting</li><li class=""><b>D.</b> Telnet</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Quick Assist / Remote Assistance</p>
+    <p class="exp">Quick Assist / Remote Assistance lets a helper shadow and control the user's existing session. RDP creates a separate session and typically logs the local user off.</p></div>
+  </details>
+</article>
+<article class="q" id="q19">
+  <div class="qtop"><span class="num">19</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Windows Defender Firewall applies rules based on which three network profiles?</p>
+  <ul class="opts"><li class=""><b>A.</b> Home, Work, School</li><li class="ans"><b>B.</b> Domain, Private, Public</li><li class=""><b>C.</b> Inbound, Outbound, Both</li><li class=""><b>D.</b> Trusted, Untrusted, Guest</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Domain, Private, Public</p>
+    <p class="exp">The firewall uses Domain, Private, and Public profiles, each with its own inbound/outbound rule set.</p></div>
+  </details>
+</article>
+<article class="q" id="q20">
+  <div class="qtop"><span class="num">20</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which is the modern replacement for DirectAccess that provides seamless remote connectivity?</p>
+  <ul class="opts"><li class=""><b>A.</b> PPTP</li><li class="ans"><b>B.</b> Always On VPN</li><li class=""><b>C.</b> Telnet</li><li class=""><b>D.</b> SSTP only</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Always On VPN</p>
+    <p class="exp">Always On VPN is Microsoft's modern, recommended replacement for DirectAccess for automatic remote connectivity.</p></div>
+  </details>
+</article>
+<article class="q" id="q21">
+  <div class="qtop"><span class="num">21</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which recovery option reinstalls Windows while giving the choice to 'Keep my files' or 'Remove everything'?</p>
+  <ul class="opts"><li class=""><b>A.</b> System Restore</li><li class="ans"><b>B.</b> Reset this PC</li><li class=""><b>C.</b> File History</li><li class=""><b>D.</b> Startup Repair</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Reset this PC</p>
+    <p class="exp">Reset this PC reinstalls Windows and offers Keep my files or Remove everything. System Restore only rolls back system files/registry via restore points.</p></div>
+  </details>
+</article>
+<article class="q" id="q22">
+  <div class="qtop"><span class="num">22</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">A user deleted personal document versions and wants to recover an earlier copy. Which feature is designed for that?</p>
+  <ul class="opts"><li class=""><b>A.</b> System Restore</li><li class="ans"><b>B.</b> File History</li><li class=""><b>C.</b> BitLocker</li><li class=""><b>D.</b> Reliability Monitor</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> File History</p>
+    <p class="exp">File History versions user files (Documents, Pictures, Desktop, etc.). System Restore does not protect personal files.</p></div>
+  </details>
+</article>
+<article class="q" id="q23">
+  <div class="qtop"><span class="num">23</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which command repairs corrupted protected system files?</p>
+  <ul class="opts"><li class=""><b>A.</b> chkdsk /f</li><li class="ans"><b>B.</b> sfc /scannow</li><li class=""><b>C.</b> diskpart</li><li class=""><b>D.</b> gpupdate /force</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> sfc /scannow</p>
+    <p class="exp">sfc /scannow scans and repairs protected system files. DISM /RestoreHealth repairs the underlying component store/image.</p></div>
+  </details>
+</article>
+<article class="q" id="q24">
+  <div class="qtop"><span class="num">24</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">The boot configuration data is corrupt and Windows won't start. Which command set repairs the boot environment?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> bootrec /fixmbr /fixboot /rebuildbcd</li><li class=""><b>B.</b> sfc /scannow</li><li class=""><b>C.</b> ipconfig /renew</li><li class=""><b>D.</b> chkdsk /r</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> bootrec /fixmbr /fixboot /rebuildbcd</p>
+    <p class="exp">bootrec with /fixmbr, /fixboot, and /rebuildbcd repairs the master boot record, boot sector, and boot configuration data.</p></div>
+  </details>
+</article>
+<article class="q" id="q25">
+  <div class="qtop"><span class="num">25</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which tool provides a historical stability index and timeline of app crashes and hardware failures?</p>
+  <ul class="opts"><li class=""><b>A.</b> Task Manager</li><li class="ans"><b>B.</b> Reliability Monitor</li><li class=""><b>C.</b> Disk Management</li><li class=""><b>D.</b> Registry Editor</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Reliability Monitor</p>
+    <p class="exp">Reliability Monitor shows a stability index over time with a timeline of failures and events. Event Viewer holds raw logs.</p></div>
+  </details>
+</article>
+<article class="q" id="q26">
+  <div class="qtop"><span class="num">26</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">With Windows Update for Business, up to how many days can quality (security) updates typically be deferred?</p>
+  <ul class="opts"><li class=""><b>A.</b> 7 days</li><li class="ans"><b>B.</b> 30 days</li><li class=""><b>C.</b> 365 days</li><li class=""><b>D.</b> They cannot be deferred</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> 30 days</p>
+    <p class="exp">Quality updates can be deferred up to 30 days; feature updates can be deferred longer via policy.</p></div>
+  </details>
+</article>
+<article class="q" id="q27">
+  <div class="qtop"><span class="num">27</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Which technology provisions brand-new OEM devices directly from the cloud with no custom image?</p>
+  <ul class="opts"><li class=""><b>A.</b> MDT</li><li class="ans"><b>B.</b> Windows Autopilot</li><li class=""><b>C.</b> USMT</li><li class=""><b>D.</b> System Restore</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Windows Autopilot</p>
+    <p class="exp">Windows Autopilot provisions OEM devices from the cloud, joining them to Entra ID and enrolling them in Intune without a custom image.</p></div>
+  </details>
+</article>
+<article class="q" id="q28">
+  <div class="qtop"><span class="num">28</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Which Autopilot scenario is designed for kiosks or shared devices that require no user credentials during setup?</p>
+  <ul class="opts"><li class=""><b>A.</b> User-driven mode</li><li class="ans"><b>B.</b> Self-deploying mode</li><li class=""><b>C.</b> Pre-provisioning (White Glove)</li><li class=""><b>D.</b> Autopilot for existing devices</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Self-deploying mode</p>
+    <p class="exp">Self-deploying mode provisions a device with no user interaction/credentials, ideal for kiosks, digital signage, and shared devices.</p></div>
+  </details>
+</article>
+<article class="q" id="q29">
+  <div class="qtop"><span class="num">29</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">What must be registered to your tenant to enroll a device in Windows Autopilot?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> The device's hardware hash</li><li class=""><b>B.</b> The user's password</li><li class=""><b>C.</b> A KMS key</li><li class=""><b>D.</b> A provisioning package</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> The device's hardware hash</p>
+    <p class="exp">Autopilot identifies devices by their hardware hash (hardware ID), which must be imported/registered to the tenant.</p></div>
+  </details>
+</article>
+<article class="q" id="q30">
+  <div class="qtop"><span class="num">30</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">During Autopilot, which feature prevents a user from accessing the desktop until required apps and policies finish installing?</p>
+  <ul class="opts"><li class=""><b>A.</b> Conditional Access</li><li class="ans"><b>B.</b> Enrollment Status Page (ESP)</li><li class=""><b>C.</b> Compliance policy</li><li class=""><b>D.</b> Delivery Optimization</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Enrollment Status Page (ESP)</p>
+    <p class="exp">The Enrollment Status Page blocks device use during provisioning until configured apps, profiles, and policies are applied.</p></div>
+  </details>
+</article>
+<article class="q" id="q31">
+  <div class="qtop"><span class="num">31</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">In Intune, which policy is used to control when and how Windows feature and quality updates install across a group of devices?</p>
+  <ul class="opts"><li class=""><b>A.</b> Compliance policy</li><li class="ans"><b>B.</b> Update rings for Windows 10 and later</li><li class=""><b>C.</b> App configuration policy</li><li class=""><b>D.</b> Conditional Access</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Update rings for Windows 10 and later</p>
+    <p class="exp">Update rings define deferral periods, deadlines, and behavior for quality and feature updates, enabling deployment-ring staging.</p></div>
+  </details>
+</article>
+<article class="q" id="q32">
+  <div class="qtop"><span class="num">32</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">A cloud-only company issues corporate laptops with organizational identities and no on-prem AD. Which join type applies?</p>
+  <ul class="opts"><li class=""><b>A.</b> Entra hybrid joined</li><li class="ans"><b>B.</b> Entra ID joined</li><li class=""><b>C.</b> Entra registered</li><li class=""><b>D.</b> Workgroup</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Entra ID joined</p>
+    <p class="exp">Entra ID joined (Azure AD joined) is for org-owned devices in cloud-only environments with organizational identity.</p></div>
+  </details>
+</article>
+<article class="q" id="q33">
+  <div class="qtop"><span class="num">33</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">An organization keeps on-prem Active Directory but also uses Entra ID; corporate PCs must be joined to both. Which join type?</p>
+  <ul class="opts"><li class=""><b>A.</b> Entra ID joined</li><li class="ans"><b>B.</b> Entra hybrid joined</li><li class=""><b>C.</b> Entra registered</li><li class=""><b>D.</b> Domain-only</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Entra hybrid joined</p>
+    <p class="exp">Entra hybrid join joins devices to both on-prem AD and Entra ID, suited to organizations with existing on-prem infrastructure.</p></div>
+  </details>
+</article>
+<article class="q" id="q34">
+  <div class="qtop"><span class="num">34</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">An employee's personal phone needs access to corporate email while keeping the personal identity. Which join type?</p>
+  <ul class="opts"><li class=""><b>A.</b> Entra ID joined</li><li class=""><b>B.</b> Entra hybrid joined</li><li class="ans"><b>C.</b> Entra registered (Workplace join)</li><li class=""><b>D.</b> Self-deploying</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> Entra registered (Workplace join)</p>
+    <p class="exp">Entra registered (Workplace join) gives personal/BYOD devices access to org resources while the primary identity remains personal.</p></div>
+  </details>
+</article>
+<article class="q" id="q35">
+  <div class="qtop"><span class="num">35</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which feature grants or blocks access to resources based on signals like user, device compliance, location, and risk?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Conditional Access</li><li class=""><b>B.</b> Windows Hello</li><li class=""><b>C.</b> BitLocker</li><li class=""><b>D.</b> App protection policy</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Conditional Access</p>
+    <p class="exp">Conditional Access evaluates signals (user, device state, location, risk) and enforces controls such as requiring a compliant device or MFA.</p></div>
+  </details>
+</article>
+<article class="q" id="q36">
+  <div class="qtop"><span class="num">36</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which capability provides passwordless sign-in using a PIN or biometrics tied to the device?</p>
+  <ul class="opts"><li class=""><b>A.</b> MAK activation</li><li class="ans"><b>B.</b> Windows Hello for Business</li><li class=""><b>C.</b> EFS</li><li class=""><b>D.</b> USMT</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Windows Hello for Business</p>
+    <p class="exp">Windows Hello for Business enables passwordless authentication using biometrics or a PIN bound to the device via asymmetric keys.</p></div>
+  </details>
+</article>
+<article class="q" id="q37">
+  <div class="qtop"><span class="num">37</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which command-line tool shows a device's Entra ID join / registration status?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> dsregcmd /status</li><li class=""><b>B.</b> gpresult /r</li><li class=""><b>C.</b> ipconfig /all</li><li class=""><b>D.</b> manage-bde -status</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> dsregcmd /status</p>
+    <p class="exp">dsregcmd /status reports the device's join state (AzureAdJoined, DomainJoined, WorkplaceJoined) and related details.</p></div>
+  </details>
+</article>
+<article class="q" id="q38">
+  <div class="qtop"><span class="num">38</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">In Intune, which item defines the rules a device must meet (BitLocker on, minimum OS, Defender enabled) to be considered healthy?</p>
+  <ul class="opts"><li class=""><b>A.</b> Configuration profile</li><li class="ans"><b>B.</b> Compliance policy</li><li class=""><b>C.</b> App protection policy</li><li class=""><b>D.</b> Update ring</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Compliance policy</p>
+    <p class="exp">A compliance policy defines the health rules. Non-compliant devices can then be blocked through Conditional Access.</p></div>
+  </details>
+</article>
+<article class="q" id="q39">
+  <div class="qtop"><span class="num">39</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">Which Intune item pushes settings such as Wi-Fi, VPN, certificates, and device restrictions to devices?</p>
+  <ul class="opts"><li class=""><b>A.</b> Compliance policy</li><li class="ans"><b>B.</b> Configuration profile</li><li class=""><b>C.</b> Conditional Access policy</li><li class=""><b>D.</b> Enrollment Status Page</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Configuration profile</p>
+    <p class="exp">Configuration profiles deploy device settings (Wi-Fi, VPN, certificates, restrictions, endpoint protection, administrative templates, settings catalog).</p></div>
+  </details>
+</article>
+<article class="q" id="q40">
+  <div class="qtop"><span class="num">40</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">How are Intune policies and profiles targeted to devices or users?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> By assigning them to Entra ID user or device groups</li><li class=""><b>B.</b> Only to individual devices by serial number</li><li class=""><b>C.</b> Through KMS</li><li class=""><b>D.</b> Via the hosts file</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> By assigning them to Entra ID user or device groups</p>
+    <p class="exp">Assignments target Entra ID (Azure AD) user or device groups, with include/exclude and filters for granular scoping.</p></div>
+  </details>
+</article>
+<article class="q" id="q41">
+  <div class="qtop"><span class="num">41</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">Which Intune feature helps you compare on-prem GPO settings and migrate them to cloud policy?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Group Policy analytics</li><li class=""><b>B.</b> Delivery Optimization</li><li class=""><b>C.</b> USMT</li><li class=""><b>D.</b> BitLocker To Go</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Group Policy analytics</p>
+    <p class="exp">Group Policy analytics imports GPO backups, reports which settings are supported in MDM, and helps migrate them to the settings catalog.</p></div>
+  </details>
+</article>
+<article class="q" id="q42">
+  <div class="qtop"><span class="num">42</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">When targeting Windows devices, which Intune configuration profile type most closely resembles traditional ADMX Group Policy settings?</p>
+  <ul class="opts"><li class=""><b>A.</b> Device restrictions</li><li class="ans"><b>B.</b> Administrative Templates</li><li class=""><b>C.</b> Certificate profile</li><li class=""><b>D.</b> Wi-Fi profile</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Administrative Templates</p>
+    <p class="exp">Administrative Templates in Intune expose ADMX-backed policy settings similar to on-prem Group Policy.</p></div>
+  </details>
+</article>
+<article class="q" id="q43">
+  <div class="qtop"><span class="num">43</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">A BYOD device leaves the company. You must remove ONLY corporate data and leave personal data intact. Which action?</p>
+  <ul class="opts"><li class=""><b>A.</b> Wipe</li><li class="ans"><b>B.</b> Retire</li><li class=""><b>C.</b> Fresh Start</li><li class=""><b>D.</b> Autopilot Reset</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Retire</p>
+    <p class="exp">Retire removes company data, apps, and policies while leaving personal data untouched — ideal for BYOD offboarding.</p></div>
+  </details>
+</article>
+<article class="q" id="q44">
+  <div class="qtop"><span class="num">44</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">A corporate-owned laptop is lost. You want to return it to factory state, erasing everything. Which action?</p>
+  <ul class="opts"><li class=""><b>A.</b> Retire</li><li class="ans"><b>B.</b> Wipe</li><li class=""><b>C.</b> Sync</li><li class=""><b>D.</b> Remote lock</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Wipe</p>
+    <p class="exp">Wipe performs a factory reset that removes all data and settings, appropriate for a lost corporate device.</p></div>
+  </details>
+</article>
+<article class="q" id="q45">
+  <div class="qtop"><span class="num">45</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which Microsoft solution provides endpoint detection and response (EDR) with advanced threat analytics?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Microsoft Defender for Endpoint</li><li class=""><b>B.</b> BitLocker</li><li class=""><b>C.</b> Windows Hello</li><li class=""><b>D.</b> Delivery Optimization</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Microsoft Defender for Endpoint</p>
+    <p class="exp">Microsoft Defender for Endpoint delivers EDR, threat and vulnerability management, and advanced hunting for endpoints.</p></div>
+  </details>
+</article>
+<article class="q" id="q46">
+  <div class="qtop"><span class="num">46</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which Intune capability applies a group of pre-configured, Microsoft-recommended security settings as a starting point?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Security baselines</li><li class=""><b>B.</b> Compliance policy</li><li class=""><b>C.</b> App protection policy</li><li class=""><b>D.</b> Delivery Optimization</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Security baselines</p>
+    <p class="exp">Security baselines are pre-configured groups of recommended settings you can deploy and customize as a secure starting point.</p></div>
+  </details>
+</article>
+<article class="q" id="q47">
+  <div class="qtop"><span class="num">47</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which feature manages and rotates the local administrator account password on Windows devices?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Windows LAPS</li><li class=""><b>B.</b> BitLocker To Go</li><li class=""><b>C.</b> Quick Assist</li><li class=""><b>D.</b> EFS</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Windows LAPS</p>
+    <p class="exp">Windows LAPS (Local Administrator Password Solution) automatically manages and rotates local admin passwords, backing them up to AD or Entra ID.</p></div>
+  </details>
+</article>
+<article class="q" id="q48">
+  <div class="qtop"><span class="num">48</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which Intune area reports device startup performance, application reliability, and offers proactive remediations?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Endpoint analytics</li><li class=""><b>B.</b> Conditional Access</li><li class=""><b>C.</b> Autopilot</li><li class=""><b>D.</b> USMT</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Endpoint analytics</p>
+    <p class="exp">Endpoint analytics measures startup performance, app reliability, and provides proactive remediation scripts.</p></div>
+  </details>
+</article>
+<article class="q" id="q49">
+  <div class="qtop"><span class="num">49</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which set of rules in Defender helps block behaviors commonly used by malware, such as Office apps spawning child processes?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Attack Surface Reduction (ASR) rules</li><li class=""><b>B.</b> Compliance rules</li><li class=""><b>C.</b> Firewall profiles</li><li class=""><b>D.</b> Update rings</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Attack Surface Reduction (ASR) rules</p>
+    <p class="exp">Attack Surface Reduction (ASR) rules block risky behaviors (e.g., Office creating child processes, script obfuscation) to reduce the attack surface.</p></div>
+  </details>
+</article>
+<article class="q" id="q50">
+  <div class="qtop"><span class="num">50</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">To deploy a traditional desktop (Win32) app through Intune, what package format is required?</p>
+  <ul class="opts"><li class=""><b>A.</b> .msix only</li><li class="ans"><b>B.</b> .intunewin (created with the Content Prep Tool)</li><li class=""><b>C.</b> .ppkg</li><li class=""><b>D.</b> .vhdx</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> .intunewin (created with the Content Prep Tool)</p>
+    <p class="exp">Win32 apps must be wrapped into a .intunewin package using the Microsoft Win32 Content Prep Tool before uploading to Intune.</p></div>
+  </details>
+</article>
+<article class="q" id="q51">
+  <div class="qtop"><span class="num">51</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which app assignment intent installs the app automatically without user action?</p>
+  <ul class="opts"><li class=""><b>A.</b> Available for enrolled devices</li><li class="ans"><b>B.</b> Required</li><li class=""><b>C.</b> Uninstall</li><li class=""><b>D.</b> Optional</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Required</p>
+    <p class="exp">The Required intent forces automatic installation. Available makes it optional through the Company Portal.</p></div>
+  </details>
+</article>
+<article class="q" id="q52">
+  <div class="qtop"><span class="num">52</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">You must protect corporate data inside apps on unmanaged personal devices WITHOUT fully enrolling them. Which policy type?</p>
+  <ul class="opts"><li class=""><b>A.</b> Configuration profile</li><li class="ans"><b>B.</b> App protection policy (MAM without enrollment)</li><li class=""><b>C.</b> Compliance policy</li><li class=""><b>D.</b> Update ring</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> App protection policy (MAM without enrollment)</p>
+    <p class="exp">App protection (MAM) policies protect data within apps (restrict copy/paste, require PIN) and work without full device enrollment — the key BYOD scenario.</p></div>
+  </details>
+</article>
+<article class="q" id="q53">
+  <div class="qtop"><span class="num">53</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which assignment intent lets users install an app on demand from the Company Portal?</p>
+  <ul class="opts"><li class=""><b>A.</b> Required</li><li class="ans"><b>B.</b> Available for enrolled devices</li><li class=""><b>C.</b> Uninstall</li><li class=""><b>D.</b> Blocked</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Available for enrolled devices</p>
+    <p class="exp">The Available for enrolled devices intent publishes the app to the Company Portal for self-service installation.</p></div>
+  </details>
+</article>
+<article class="q" id="q54">
+  <div class="qtop"><span class="num">54</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which policy pre-configures app settings (like a server URL) before or during first launch?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> App configuration policy</li><li class=""><b>B.</b> App protection policy</li><li class=""><b>C.</b> Compliance policy</li><li class=""><b>D.</b> Conditional Access</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> App configuration policy</p>
+    <p class="exp">App configuration policies deliver configuration settings to managed apps, avoiding manual setup by the user.</p></div>
+  </details>
+</article>
+<article class="q" id="q55">
+  <div class="qtop"><span class="num">55</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which console manages local users and groups on a standalone Windows Pro PC?</p>
+  <ul class="opts"><li class=""><b>A.</b> dsa.msc</li><li class="ans"><b>B.</b> lusrmgr.msc</li><li class=""><b>C.</b> gpmc.msc</li><li class=""><b>D.</b> services.msc</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> lusrmgr.msc</p>
+    <p class="exp">lusrmgr.msc opens Local Users and Groups. dsa.msc is Active Directory Users and Computers (domain).</p></div>
+  </details>
+</article>
+<article class="q" id="q56">
+  <div class="qtop"><span class="num">56</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which partition style is required to boot Windows from a disk larger than 2 TB on a UEFI system?</p>
+  <ul class="opts"><li class=""><b>A.</b> MBR</li><li class="ans"><b>B.</b> GPT</li><li class=""><b>C.</b> FAT32</li><li class=""><b>D.</b> Dynamic</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> GPT</p>
+    <p class="exp">GPT (GUID Partition Table) supports disks larger than 2 TB and is required for UEFI boot; MBR is limited to 2 TB.</p></div>
+  </details>
+</article>
+<article class="q" id="q57">
+  <div class="qtop"><span class="num">57</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Co-management lets you manage a device with both Configuration Manager and which cloud service simultaneously?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Microsoft Intune</li><li class=""><b>B.</b> KMS</li><li class=""><b>C.</b> MDT</li><li class=""><b>D.</b> WSUS</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Microsoft Intune</p>
+    <p class="exp">Co-management enables concurrent management by Configuration Manager and Microsoft Intune, with workloads slid between them.</p></div>
+  </details>
+</article>
+<article class="q" id="q58">
+  <div class="qtop"><span class="num">58</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">In what order does Windows resolve a host name?</p>
+  <ul class="opts"><li class=""><b>A.</b> DNS, then hosts file, then cache</li><li class="ans"><b>B.</b> Local cache, then hosts file, then DNS</li><li class=""><b>C.</b> Hosts file only</li><li class=""><b>D.</b> DNS only</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Local cache, then hosts file, then DNS</p>
+    <p class="exp">Windows checks the local DNS client cache (which preloads the hosts file), then queries DNS servers.</p></div>
+  </details>
+</article>
+<article class="q" id="q59">
+  <div class="qtop"><span class="num">59</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which command repairs the Windows component store/image when sfc cannot fix files?</p>
+  <ul class="opts"><li class=""><b>A.</b> chkdsk /r</li><li class="ans"><b>B.</b> DISM /Online /Cleanup-Image /RestoreHealth</li><li class=""><b>C.</b> bootrec /fixmbr</li><li class=""><b>D.</b> gpupdate /force</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> DISM /Online /Cleanup-Image /RestoreHealth</p>
+    <p class="exp">DISM /Online /Cleanup-Image /RestoreHealth repairs the component store, which sfc relies on. Run DISM first, then sfc if needed.</p></div>
+  </details>
+</article>
+<article class="q" id="q60">
+  <div class="qtop"><span class="num">60</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which enrollment method automatically enrolls a device in Intune the moment it is Entra ID joined?</p>
+  <ul class="opts"><li class=""><b>A.</b> Bulk enrollment</li><li class="ans"><b>B.</b> Automatic enrollment (MDM auto-enrollment)</li><li class=""><b>C.</b> Manual enrollment</li><li class=""><b>D.</b> Apple ADE</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Automatic enrollment (MDM auto-enrollment)</p>
+    <p class="exp">With MDM automatic enrollment configured, devices auto-enroll in Intune during Entra ID join (including Autopilot).</p></div>
+  </details>
+</article>
+<article class="q" id="q61">
+  <div class="qtop"><span class="num">61</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which two default NTFS permission behaviors are TRUE?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Permissions are cumulative; Deny overrides Allow</li><li class=""><b>B.</b> Only the last-applied permission counts</li><li class=""><b>C.</b> Share permissions override NTFS locally</li><li class=""><b>D.</b> Deny is ignored if Allow exists</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Permissions are cumulative; Deny overrides Allow</p>
+    <p class="exp">NTFS permissions accumulate across group memberships, but an explicit Deny takes precedence over any Allow.</p></div>
+  </details>
+</article>
+<article class="q" id="q62">
+  <div class="qtop"><span class="num">62</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which action reinstalls Windows and re-runs Autopilot to return a device to a business-ready state for a new user?</p>
+  <ul class="opts"><li class=""><b>A.</b> Retire</li><li class="ans"><b>B.</b> Autopilot Reset</li><li class=""><b>C.</b> EFS</li><li class=""><b>D.</b> Quick Assist</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Autopilot Reset</p>
+    <p class="exp">Autopilot Reset wipes user data/apps/settings, keeps the device Entra/Intune managed, and reapplies Autopilot for the next user.</p></div>
+  </details>
+</article>
+<article class="q" id="q63">
+  <div class="qtop"><span class="num">63</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Delivery Optimization primarily helps with what during large deployments?</p>
+  <ul class="opts"><li class=""><b>A.</b> Encrypting drives</li><li class="ans"><b>B.</b> Peer-to-peer caching of updates and apps to save bandwidth</li><li class=""><b>C.</b> Joining devices to a domain</li><li class=""><b>D.</b> Managing local admin passwords</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Peer-to-peer caching of updates and apps to save bandwidth</p>
+    <p class="exp">Delivery Optimization uses peer-to-peer distribution so devices share update/app content locally, reducing internet bandwidth.</p></div>
+  </details>
+</article>
+<article class="q" id="q64">
+  <div class="qtop"><span class="num">64</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which tool builds an image-based, task-sequence deployment on-premises using WDS/PXE?</p>
+  <ul class="opts"><li class=""><b>A.</b> Windows Configuration Designer</li><li class="ans"><b>B.</b> Microsoft Deployment Toolkit (MDT)</li><li class=""><b>C.</b> Intune</li><li class=""><b>D.</b> Storage Spaces</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Microsoft Deployment Toolkit (MDT)</p>
+    <p class="exp">MDT provides image-based deployment with task sequences, commonly paired with Windows Deployment Services (WDS) for PXE boot.</p></div>
+  </details>
+</article>
+<article class="q" id="q65">
+  <div class="qtop"><span class="num">65</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which tool creates a provisioning package (.ppkg)?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Windows Configuration Designer</li><li class=""><b>B.</b> Disk Management</li><li class=""><b>C.</b> Task Scheduler</li><li class=""><b>D.</b> BitLocker Wizard</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Windows Configuration Designer</p>
+    <p class="exp">Windows Configuration Designer (WCD) builds provisioning packages that apply settings to a device without reimaging.</p></div>
+  </details>
+</article>
+<article class="q" id="q66">
+  <div class="qtop"><span class="num">66</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which servicing tool lets you mount and service a Windows image (.wim) offline?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> DISM</li><li class=""><b>B.</b> sfc</li><li class=""><b>C.</b> chkdsk</li><li class=""><b>D.</b> bootrec</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> DISM</p>
+    <p class="exp">DISM (Deployment Image Servicing and Management) mounts, services, adds drivers/packages to, and captures Windows images.</p></div>
+  </details>
+</article>
+<article class="q" id="q67">
+  <div class="qtop"><span class="num">67</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Subscription Activation can automatically step a device up from which edition to which edition?</p>
+  <ul class="opts"><li class=""><b>A.</b> Home to Pro</li><li class="ans"><b>B.</b> Pro to Enterprise</li><li class=""><b>C.</b> Enterprise to Education</li><li class=""><b>D.</b> Pro to Home</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Pro to Enterprise</p>
+    <p class="exp">Subscription Activation upgrades Windows Pro to Enterprise automatically when an Entra ID user with the right license signs in.</p></div>
+  </details>
+</article>
+<article class="q" id="q68">
+  <div class="qtop"><span class="num">68</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">What is the minimum RAM requirement for a 64-bit Windows 11 install?</p>
+  <ul class="opts"><li class=""><b>A.</b> 1 GB</li><li class=""><b>B.</b> 2 GB</li><li class="ans"><b>C.</b> 4 GB</li><li class=""><b>D.</b> 8 GB</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> 4 GB</p>
+    <p class="exp">Windows 11 requires a minimum of 4 GB of RAM (plus 64 GB storage and a 1 GHz 2-core 64-bit CPU).</p></div>
+  </details>
+</article>
+<article class="q" id="q69">
+  <div class="qtop"><span class="num">69</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which log-free method images many identical on-prem PCs over the network via PXE?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Windows Deployment Services (WDS)</li><li class=""><b>B.</b> File History</li><li class=""><b>C.</b> EFS</li><li class=""><b>D.</b> Quick Assist</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Windows Deployment Services (WDS)</p>
+    <p class="exp">WDS enables network-based (PXE) installation of Windows images to many computers, often paired with MDT.</p></div>
+  </details>
+</article>
+<article class="q" id="q70">
+  <div class="qtop"><span class="num">70</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">You COPY a file to a different NTFS volume. What permissions does the copy have?</p>
+  <ul class="opts"><li class=""><b>A.</b> Keeps the source permissions</li><li class="ans"><b>B.</b> Inherits the destination folder's permissions</li><li class=""><b>C.</b> Loses all permissions</li><li class=""><b>D.</b> Becomes hidden</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Inherits the destination folder's permissions</p>
+    <p class="exp">Copying (and any move across volumes) causes the file to inherit the destination's permissions.</p></div>
+  </details>
+</article>
+<article class="q" id="q71">
+  <div class="qtop"><span class="num">71</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which built-in group can back up and restore files regardless of file permissions?</p>
+  <ul class="opts"><li class=""><b>A.</b> Power Users</li><li class="ans"><b>B.</b> Backup Operators</li><li class=""><b>C.</b> Guests</li><li class=""><b>D.</b> Remote Desktop Users</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Backup Operators</p>
+    <p class="exp">Members of Backup Operators can back up and restore files even without explicit permissions to those files.</p></div>
+  </details>
+</article>
+<article class="q" id="q72">
+  <div class="qtop"><span class="num">72</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which command-line tool manages BitLocker?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> manage-bde</li><li class=""><b>B.</b> cipher</li><li class=""><b>C.</b> pnputil</li><li class=""><b>D.</b> dsregcmd</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> manage-bde</p>
+    <p class="exp">manage-bde configures and reports on BitLocker. cipher manages EFS encryption.</p></div>
+  </details>
+</article>
+<article class="q" id="q73">
+  <div class="qtop"><span class="num">73</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Where can a BitLocker recovery key be automatically backed up for a domain or cloud device?</p>
+  <ul class="opts"><li class=""><b>A.</b> Only printed on paper</li><li class="ans"><b>B.</b> Active Directory or Entra ID</li><li class=""><b>C.</b> The hosts file</li><li class=""><b>D.</b> The BIOS</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Active Directory or Entra ID</p>
+    <p class="exp">BitLocker recovery keys can be escrowed to Active Directory (on-prem) or Entra ID (cloud), or saved to a file/printed.</p></div>
+  </details>
+</article>
+<article class="q" id="q74">
+  <div class="qtop"><span class="num">74</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which file system is recommended for large USB drives that must store files over 4 GB without NTFS overhead?</p>
+  <ul class="opts"><li class=""><b>A.</b> FAT32</li><li class="ans"><b>B.</b> exFAT</li><li class=""><b>C.</b> ReFS</li><li class=""><b>D.</b> CDFS</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> exFAT</p>
+    <p class="exp">exFAT supports files larger than 4 GB and is optimized for removable flash media; FAT32 has a 4 GB per-file cap.</p></div>
+  </details>
+</article>
+<article class="q" id="q75">
+  <div class="qtop"><span class="num">75</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which Storage Spaces layout offers NO resiliency but maximizes capacity and performance?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Simple</li><li class=""><b>B.</b> Two-way mirror</li><li class=""><b>C.</b> Three-way mirror</li><li class=""><b>D.</b> Parity</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Simple</p>
+    <p class="exp">A Simple space stripes data with no redundancy — best capacity/performance but no protection against drive failure.</p></div>
+  </details>
+</article>
+<article class="q" id="q76">
+  <div class="qtop"><span class="num">76</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which command manages EFS file encryption from the command line?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> cipher</li><li class=""><b>B.</b> manage-bde</li><li class=""><b>C.</b> diskpart</li><li class=""><b>D.</b> sfc</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> cipher</p>
+    <p class="exp">cipher encrypts/decrypts files and folders with EFS and can wipe free space.</p></div>
+  </details>
+</article>
+<article class="q" id="q77">
+  <div class="qtop"><span class="num">77</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">A three-way mirror in Storage Spaces requires a minimum of how many drives?</p>
+  <ul class="opts"><li class=""><b>A.</b> 2</li><li class=""><b>B.</b> 3</li><li class="ans"><b>C.</b> 4</li><li class=""><b>D.</b> 5</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> 4</p>
+    <p class="exp">A three-way mirror keeps three copies of data and requires at least five drives; a two-way mirror needs two (three recommended). Note: the widely-cited minimum for three-way mirror is five drives.</p></div>
+  </details>
+</article>
+<article class="q" id="q78">
+  <div class="qtop"><span class="num">78</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which console lets you initialize a new disk and choose MBR or GPT?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Disk Management</li><li class=""><b>B.</b> Device Manager</li><li class=""><b>C.</b> Event Viewer</li><li class=""><b>D.</b> Task Scheduler</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Disk Management</p>
+    <p class="exp">Disk Management (or diskpart) initializes disks and sets the partition style to MBR or GPT.</p></div>
+  </details>
+</article>
+<article class="q" id="q79">
+  <div class="qtop"><span class="num">79</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which PowerShell cmdlet tests connectivity and reports whether a TCP port is open?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Test-NetConnection</li><li class=""><b>B.</b> Get-Process</li><li class=""><b>C.</b> Resolve-Path</li><li class=""><b>D.</b> Set-Location</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Test-NetConnection</p>
+    <p class="exp">Test-NetConnection tests reachability and can check a specific TCP port (-Port), a modern replacement for ping/telnet checks.</p></div>
+  </details>
+</article>
+<article class="q" id="q80">
+  <div class="qtop"><span class="num">80</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which VPN protocol uses SSL and works well through firewalls on port 443?</p>
+  <ul class="opts"><li class=""><b>A.</b> PPTP</li><li class=""><b>B.</b> L2TP/IPsec</li><li class="ans"><b>C.</b> SSTP</li><li class=""><b>D.</b> IKEv2</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> SSTP</p>
+    <p class="exp">SSTP tunnels over SSL/TLS on TCP 443, so it traverses most firewalls and proxies easily.</p></div>
+  </details>
+</article>
+<article class="q" id="q81">
+  <div class="qtop"><span class="num">81</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which file can statically map a hostname to an IP and is checked before DNS queries?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> hosts file</li><li class=""><b>B.</b> lmhosts only</li><li class=""><b>C.</b> boot.ini</li><li class=""><b>D.</b> hiberfil.sys</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> hosts file</p>
+    <p class="exp">The hosts file (System32\drivers\etc\hosts) preloads the DNS client cache and is consulted before querying DNS servers.</p></div>
+  </details>
+</article>
+<article class="q" id="q82">
+  <div class="qtop"><span class="num">82</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which command releases the current DHCP-assigned IPv4 address?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> ipconfig /release</li><li class=""><b>B.</b> ipconfig /flushdns</li><li class=""><b>C.</b> ipconfig /displaydns</li><li class=""><b>D.</b> netstat -a</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> ipconfig /release</p>
+    <p class="exp">ipconfig /release drops the current DHCP lease; /renew requests a new one.</p></div>
+  </details>
+</article>
+<article class="q" id="q83">
+  <div class="qtop"><span class="num">83</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which editions can act as a Remote Desktop HOST (accept incoming RDP)?</p>
+  <ul class="opts"><li class=""><b>A.</b> Home only</li><li class="ans"><b>B.</b> Pro and above</li><li class=""><b>C.</b> Any edition</li><li class=""><b>D.</b> S mode only</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Pro and above</p>
+    <p class="exp">Only Windows Pro, Enterprise, and Education can host inbound Remote Desktop sessions; Home can only be a client.</p></div>
+  </details>
+</article>
+<article class="q" id="q84">
+  <div class="qtop"><span class="num">84</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which feature creates restore points that roll back system files and the registry but NOT personal files?</p>
+  <ul class="opts"><li class=""><b>A.</b> File History</li><li class="ans"><b>B.</b> System Restore</li><li class=""><b>C.</b> BitLocker</li><li class=""><b>D.</b> Reset this PC</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> System Restore</p>
+    <p class="exp">System Restore reverts system files, drivers, and registry settings to a restore point without touching personal files.</p></div>
+  </details>
+</article>
+<article class="q" id="q85">
+  <div class="qtop"><span class="num">85</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which console centralizes application, security, system, and setup logs?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Event Viewer</li><li class=""><b>B.</b> Task Manager</li><li class=""><b>C.</b> Resource Monitor</li><li class=""><b>D.</b> Registry Editor</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Event Viewer</p>
+    <p class="exp">Event Viewer (eventvwr.msc) holds Windows logs — Application, Security, Setup, System, and Forwarded Events.</p></div>
+  </details>
+</article>
+<article class="q" id="q86">
+  <div class="qtop"><span class="num">86</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which recovery environment tool can fix startup problems automatically?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Startup Repair (in WinRE)</li><li class=""><b>B.</b> cipher</li><li class=""><b>C.</b> Disk Cleanup</li><li class=""><b>D.</b> Storage Sense</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Startup Repair (in WinRE)</p>
+    <p class="exp">Startup Repair in the Windows Recovery Environment diagnoses and fixes common boot problems automatically.</p></div>
+  </details>
+</article>
+<article class="q" id="q87">
+  <div class="qtop"><span class="num">87</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which Windows Update peer technology reduces internet bandwidth by sharing content between local devices?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Delivery Optimization</li><li class=""><b>B.</b> BranchCache only</li><li class=""><b>C.</b> Storage Sense</li><li class=""><b>D.</b> Windows To Go</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Delivery Optimization</p>
+    <p class="exp">Delivery Optimization uses peer-to-peer distribution so devices share update and app content on the LAN or internet.</p></div>
+  </details>
+</article>
+<article class="q" id="q88">
+  <div class="qtop"><span class="num">88</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which tool shows real-time CPU, disk, network, and memory usage broken down by process with handles/modules detail?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Resource Monitor</li><li class=""><b>B.</b> File History</li><li class=""><b>C.</b> Disk Management</li><li class=""><b>D.</b> gpedit.msc</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Resource Monitor</p>
+    <p class="exp">Resource Monitor (resmon) gives detailed real-time per-process CPU, memory, disk, and network breakdowns.</p></div>
+  </details>
+</article>
+<article class="q" id="q89">
+  <div class="qtop"><span class="num">89</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Windows feature updates can be deferred, but for how long are they typically supported per release before you must update (GA channel)?</p>
+  <ul class="opts"><li class=""><b>A.</b> 1 month</li><li class="ans"><b>B.</b> About 18-36 months depending on edition</li><li class=""><b>C.</b> 10 years</li><li class=""><b>D.</b> They never expire</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> About 18-36 months depending on edition</p>
+    <p class="exp">Feature update releases on the General Availability Channel are serviced roughly 18 months (Home/Pro) to 36 months (Enterprise/Education).</p></div>
+  </details>
+</article>
+<article class="q" id="q90">
+  <div class="qtop"><span class="num">90</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Which Autopilot mode has IT pre-provision apps/policies, then hands a ready device to the user to finish sign-in?</p>
+  <ul class="opts"><li class=""><b>A.</b> Self-deploying</li><li class="ans"><b>B.</b> Pre-provisioning (White Glove)</li><li class=""><b>C.</b> User-driven</li><li class=""><b>D.</b> Autopilot Reset</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Pre-provisioning (White Glove)</p>
+    <p class="exp">Pre-provisioning (formerly White Glove) lets IT/OEM preload apps and policies so the end user completes only a quick sign-in.</p></div>
+  </details>
+</article>
+<article class="q" id="q91">
+  <div class="qtop"><span class="num">91</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">What uniquely identifies a device to Windows Autopilot when registering it?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> The hardware hash (hardware ID)</li><li class=""><b>B.</b> The user's UPN</li><li class=""><b>C.</b> The BitLocker key</li><li class=""><b>D.</b> The MAC vendor prefix only</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> The hardware hash (hardware ID)</p>
+    <p class="exp">Autopilot registers devices by their hardware hash, uploaded to the tenant (often by the OEM or via a script).</p></div>
+  </details>
+</article>
+<article class="q" id="q92">
+  <div class="qtop"><span class="num">92</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Which Intune report set gives visibility into Windows update compliance and issues?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Windows Update for Business reports</li><li class=""><b>B.</b> Storage Spaces reports</li><li class=""><b>C.</b> EFS logs</li><li class=""><b>D.</b> WDS console</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Windows Update for Business reports</p>
+    <p class="exp">Windows Update for Business reports (in Intune/Azure) surface update deployment status, compliance, and failures.</p></div>
+  </details>
+</article>
+<article class="q" id="q93">
+  <div class="qtop"><span class="num">93</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Which Intune update policy forces the newest security update quickly, outside the normal ring cadence?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Expedite quality updates</li><li class=""><b>B.</b> Feature updates policy</li><li class=""><b>C.</b> Compliance policy</li><li class=""><b>D.</b> App configuration policy</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Expedite quality updates</p>
+    <p class="exp">Expedite quality updates pushes a critical security update rapidly, overriding deferral/ring timing.</p></div>
+  </details>
+</article>
+<article class="q" id="q94">
+  <div class="qtop"><span class="num">94</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">In co-management, what happens to workloads like compliance policies as you shift a slider?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> They move authority between Configuration Manager and Intune</li><li class=""><b>B.</b> They are deleted</li><li class=""><b>C.</b> They move to on-prem AD only</li><li class=""><b>D.</b> They require reimaging</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> They move authority between Configuration Manager and Intune</p>
+    <p class="exp">Co-management sliders move individual workloads' authority between Configuration Manager and Intune.</p></div>
+  </details>
+</article>
+<article class="q" id="q95">
+  <div class="qtop"><span class="num">95</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which sign-in signal can Conditional Access evaluate?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> User/group, device compliance, location, and sign-in risk</li><li class=""><b>B.</b> Only the password length</li><li class=""><b>C.</b> Only the device serial number</li><li class=""><b>D.</b> Only the time zone</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> User/group, device compliance, location, and sign-in risk</p>
+    <p class="exp">Conditional Access combines signals — user/group, device state/compliance, location/IP, app, and risk — to grant or block access.</p></div>
+  </details>
+</article>
+<article class="q" id="q96">
+  <div class="qtop"><span class="num">96</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which authentication method is phishing-resistant and passwordless using a physical security key?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> FIDO2 security keys</li><li class=""><b>B.</b> SMS codes</li><li class=""><b>C.</b> A reused password</li><li class=""><b>D.</b> Security questions</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> FIDO2 security keys</p>
+    <p class="exp">FIDO2 security keys provide passwordless, phishing-resistant authentication based on public-key cryptography.</p></div>
+  </details>
+</article>
+<article class="q" id="q97">
+  <div class="qtop"><span class="num">97</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Automatic MDM enrollment in Intune is triggered by which event when configured?</p>
+  <ul class="opts"><li class=""><b>A.</b> Formatting a disk</li><li class="ans"><b>B.</b> Entra ID join</li><li class=""><b>C.</b> Installing an app</li><li class=""><b>D.</b> Running sfc</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Entra ID join</p>
+    <p class="exp">When MDM auto-enrollment is enabled, devices enroll in Intune automatically during Entra ID join (including via Autopilot).</p></div>
+  </details>
+</article>
+<article class="q" id="q98">
+  <div class="qtop"><span class="num">98</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which enrollment method uses a provisioning package to enroll many devices at once?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Bulk enrollment</li><li class=""><b>B.</b> Manual per-device enrollment</li><li class=""><b>C.</b> Autopilot self-deploy</li><li class=""><b>D.</b> Workplace join</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Bulk enrollment</p>
+    <p class="exp">Bulk enrollment uses a provisioning package (built in WCD) containing a bulk enrollment token to join/enroll many devices.</p></div>
+  </details>
+</article>
+<article class="q" id="q99">
+  <div class="qtop"><span class="num">99</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Windows Hello for Business stores its credentials using what protection where available?</p>
+  <ul class="opts"><li class=""><b>A.</b> Plain text file</li><li class="ans"><b>B.</b> The TPM</li><li class=""><b>C.</b> The hosts file</li><li class=""><b>D.</b> A shared network folder</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> The TPM</p>
+    <p class="exp">Windows Hello for Business binds credentials to the device and protects the private key with the TPM when present.</p></div>
+  </details>
+</article>
+<article class="q" id="q100">
+  <div class="qtop"><span class="num">100</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">A non-compliant device should be blocked from Microsoft 365. What must be paired with the compliance policy?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> A Conditional Access policy requiring a compliant device</li><li class=""><b>B.</b> A provisioning package</li><li class=""><b>C.</b> BitLocker To Go</li><li class=""><b>D.</b> Storage Spaces</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> A Conditional Access policy requiring a compliant device</p>
+    <p class="exp">Compliance policies mark devices compliant/non-compliant; Conditional Access enforces the block by requiring a compliant device.</p></div>
+  </details>
+</article>
+<article class="q" id="q101">
+  <div class="qtop"><span class="num">101</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">Which Intune profile type exposes the broadest, searchable list of individual device settings?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Settings catalog</li><li class=""><b>B.</b> Wi-Fi profile</li><li class=""><b>C.</b> VPN profile</li><li class=""><b>D.</b> Certificate profile</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Settings catalog</p>
+    <p class="exp">The Settings catalog lists thousands of individual settings you can pick and configure, the most flexible profile type.</p></div>
+  </details>
+</article>
+<article class="q" id="q102">
+  <div class="qtop"><span class="num">102</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">Roughly how often do enrolled Windows devices check in with Intune for policy by default?</p>
+  <ul class="opts"><li class=""><b>A.</b> Every few minutes</li><li class="ans"><b>B.</b> About every 8 hours (or on manual sync)</li><li class=""><b>C.</b> Once a year</li><li class=""><b>D.</b> Never automatically</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> About every 8 hours (or on manual sync)</p>
+    <p class="exp">Windows devices poll Intune roughly every 8 hours by default; users/admins can force a sync sooner.</p></div>
+  </details>
+</article>
+<article class="q" id="q103">
+  <div class="qtop"><span class="num">103</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">What lets you refine an assignment so a profile applies only to, say, devices running a specific OS version within a group?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Filters</li><li class=""><b>B.</b> Restore points</li><li class=""><b>C.</b> Delivery Optimization</li><li class=""><b>D.</b> EFS</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Filters</p>
+    <p class="exp">Assignment filters narrow who a policy/app targets within an assigned group based on device properties.</p></div>
+  </details>
+</article>
+<article class="q" id="q104">
+  <div class="qtop"><span class="num">104</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">Which compliance setting is commonly required to protect data at rest on Windows laptops?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Require BitLocker encryption</li><li class=""><b>B.</b> Disable the firewall</li><li class=""><b>C.</b> Allow any OS version</li><li class=""><b>D.</b> Remove the TPM</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Require BitLocker encryption</p>
+    <p class="exp">A typical compliance rule requires BitLocker (plus minimum OS version, Defender on, password) to mark a device compliant.</p></div>
+  </details>
+</article>
+<article class="q" id="q105">
+  <div class="qtop"><span class="num">105</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which remote action removes company data but leaves personal data on a BYOD device?</p>
+  <ul class="opts"><li class=""><b>A.</b> Wipe</li><li class="ans"><b>B.</b> Retire</li><li class=""><b>C.</b> Autopilot Reset</li><li class=""><b>D.</b> Fresh Start</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Retire</p>
+    <p class="exp">Retire selectively removes company data, apps, and policies, leaving personal data intact — the BYOD offboarding action.</p></div>
+  </details>
+</article>
+<article class="q" id="q106">
+  <div class="qtop"><span class="num">106</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which action resets a device to factory state and removes ALL data?</p>
+  <ul class="opts"><li class=""><b>A.</b> Retire</li><li class="ans"><b>B.</b> Wipe</li><li class=""><b>C.</b> Sync</li><li class=""><b>D.</b> Locate device</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Wipe</p>
+    <p class="exp">Wipe performs a full factory reset, erasing all data and settings on the device.</p></div>
+  </details>
+</article>
+<article class="q" id="q107">
+  <div class="qtop"><span class="num">107</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which capability rotates and stores local admin passwords in Entra ID or AD?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Windows LAPS</li><li class=""><b>B.</b> EFS</li><li class=""><b>C.</b> Quick Assist</li><li class=""><b>D.</b> Delivery Optimization</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Windows LAPS</p>
+    <p class="exp">Windows LAPS manages and rotates the local administrator password and backs it up to AD or Entra ID.</p></div>
+  </details>
+</article>
+<article class="q" id="q108">
+  <div class="qtop"><span class="num">108</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which Defender feature reduces risky behaviors like Office apps launching child processes?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Attack Surface Reduction (ASR) rules</li><li class=""><b>B.</b> BitLocker To Go</li><li class=""><b>C.</b> File History</li><li class=""><b>D.</b> Storage Sense</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Attack Surface Reduction (ASR) rules</p>
+    <p class="exp">ASR rules block common malware behaviors such as Office creating child processes or credential theft attempts.</p></div>
+  </details>
+</article>
+<article class="q" id="q109">
+  <div class="qtop"><span class="num">109</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">Which Intune insight area reports device startup times and app reliability, with proactive remediations?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Endpoint analytics</li><li class=""><b>B.</b> Conditional Access</li><li class=""><b>C.</b> Autopilot</li><li class=""><b>D.</b> Group Policy analytics</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Endpoint analytics</p>
+    <p class="exp">Endpoint analytics measures startup performance and app reliability and can run proactive remediation scripts.</p></div>
+  </details>
+</article>
+<article class="q" id="q110">
+  <div class="qtop"><span class="num">110</span><span class="tag">MD-101 · Protect</span></div>
+  <p class="qt">A device is lost but you may recover it; you want to lock it immediately. Which action?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Remote lock</li><li class=""><b>B.</b> Wipe</li><li class=""><b>C.</b> Retire</li><li class=""><b>D.</b> Rename</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Remote lock</p>
+    <p class="exp">Remote lock locks the device right away while you decide whether to wipe it, without erasing data.</p></div>
+  </details>
+</article>
+<article class="q" id="q111">
+  <div class="qtop"><span class="num">111</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which tool wraps a Win32 app into the .intunewin format for Intune?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Microsoft Win32 Content Prep Tool</li><li class=""><b>B.</b> Windows Configuration Designer</li><li class=""><b>C.</b> DISM</li><li class=""><b>D.</b> cipher</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Microsoft Win32 Content Prep Tool</p>
+    <p class="exp">The Win32 Content Prep Tool packages setup files into a .intunewin file for upload and deployment via Intune.</p></div>
+  </details>
+</article>
+<article class="q" id="q112">
+  <div class="qtop"><span class="num">112</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which assignment intent removes an app from targeted devices?</p>
+  <ul class="opts"><li class=""><b>A.</b> Required</li><li class=""><b>B.</b> Available</li><li class="ans"><b>C.</b> Uninstall</li><li class=""><b>D.</b> Optional</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: C.</b> Uninstall</p>
+    <p class="exp">The Uninstall intent removes the app from devices/users in the assigned group.</p></div>
+  </details>
+</article>
+<article class="q" id="q113">
+  <div class="qtop"><span class="num">113</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">App protection policies (MAM) are especially valuable in which scenario?</p>
+  <ul class="opts"><li class=""><b>A.</b> Fully managed kiosks</li><li class="ans"><b>B.</b> Unmanaged/BYOD devices without full enrollment</li><li class=""><b>C.</b> Air-gapped servers</li><li class=""><b>D.</b> On-prem domain controllers</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: B.</b> Unmanaged/BYOD devices without full enrollment</p>
+    <p class="exp">MAM/app protection policies protect corporate data inside apps on unmanaged/BYOD devices without requiring enrollment.</p></div>
+  </details>
+</article>
+<article class="q" id="q114">
+  <div class="qtop"><span class="num">114</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which policy can pre-set a managed app's configuration, like a server URL, before first use?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> App configuration policy</li><li class=""><b>B.</b> Compliance policy</li><li class=""><b>C.</b> Update ring</li><li class=""><b>D.</b> Conditional Access</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> App configuration policy</p>
+    <p class="exp">App configuration policies deliver settings to managed apps so users don't configure them manually.</p></div>
+  </details>
+</article>
+<article class="q" id="q115">
+  <div class="qtop"><span class="num">115</span><span class="tag">MD-101 · Apps</span></div>
+  <p class="qt">Which app-protection restriction is commonly enforced to prevent data leakage?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Block copy/paste from work apps to personal apps</li><li class=""><b>B.</b> Disable the TPM</li><li class=""><b>C.</b> Remove BitLocker</li><li class=""><b>D.</b> Turn off the firewall</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Block copy/paste from work apps to personal apps</p>
+    <p class="exp">App protection policies can block cut/copy/paste and save-as between managed and unmanaged apps to prevent leakage.</p></div>
+  </details>
+</article>
+<article class="q" id="q116">
+  <div class="qtop"><span class="num">116</span><span class="tag">MD-100 · Devices &amp; Data</span></div>
+  <p class="qt">Which command-line utility adds or removes device drivers from the driver store?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> pnputil</li><li class=""><b>B.</b> dsregcmd</li><li class=""><b>C.</b> manage-bde</li><li class=""><b>D.</b> cipher</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> pnputil</p>
+    <p class="exp">pnputil adds, deletes, and enumerates driver packages in the Windows driver store.</p></div>
+  </details>
+</article>
+<article class="q" id="q117">
+  <div class="qtop"><span class="num">117</span><span class="tag">MD-100 · Maintain</span></div>
+  <p class="qt">Which two commands are the standard pair to repair Windows: first the image, then system files?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> DISM /RestoreHealth then sfc /scannow</li><li class=""><b>B.</b> chkdsk then format</li><li class=""><b>C.</b> bootrec then diskpart</li><li class=""><b>D.</b> gpupdate then gpresult</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> DISM /RestoreHealth then sfc /scannow</p>
+    <p class="exp">Run DISM /Online /Cleanup-Image /RestoreHealth to fix the component store, then sfc /scannow to repair system files.</p></div>
+  </details>
+</article>
+<article class="q" id="q118">
+  <div class="qtop"><span class="num">118</span><span class="tag">MD-101 · Identity</span></div>
+  <p class="qt">Which command reports whether a device is Entra ID joined, hybrid joined, or workplace joined?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> dsregcmd /status</li><li class=""><b>B.</b> ipconfig /all</li><li class=""><b>C.</b> sfc /scannow</li><li class=""><b>D.</b> manage-bde -status</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> dsregcmd /status</p>
+    <p class="exp">dsregcmd /status shows AzureAdJoined, DomainJoined, and WorkplaceJoined states plus SSO and prerequisite details.</p></div>
+  </details>
+</article>
+<article class="q" id="q119">
+  <div class="qtop"><span class="num">119</span><span class="tag">MD-100 · Deploy</span></div>
+  <p class="qt">Which is TRUE about in-place upgrades?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> They keep apps, files, and settings</li><li class=""><b>B.</b> They erase the disk</li><li class=""><b>C.</b> They require GPT only</li><li class=""><b>D.</b> They downgrade the edition</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> They keep apps, files, and settings</p>
+    <p class="exp">An in-place upgrade preserves installed apps, user files, and settings while updating the OS.</p></div>
+  </details>
+</article>
+<article class="q" id="q120">
+  <div class="qtop"><span class="num">120</span><span class="tag">MD-101 · Deploy</span></div>
+  <p class="qt">Which deployment ring approach reduces risk when rolling out feature updates?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Deploy to a small pilot group first, then broaden</li><li class=""><b>B.</b> Deploy to everyone at once</li><li class=""><b>C.</b> Never deploy updates</li><li class=""><b>D.</b> Only deploy on weekends</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Deploy to a small pilot group first, then broaden</p>
+    <p class="exp">Staging via deployment rings (pilot then broad) limits blast radius and catches issues before wide rollout.</p></div>
+  </details>
+</article>
+<article class="q" id="q121">
+  <div class="qtop"><span class="num">121</span><span class="tag">MD-100 · Connectivity</span></div>
+  <p class="qt">Which utility resolves a DNS name to an IP for troubleshooting name resolution?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> nslookup</li><li class=""><b>B.</b> chkdsk</li><li class=""><b>C.</b> diskpart</li><li class=""><b>D.</b> pnputil</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> nslookup</p>
+    <p class="exp">nslookup queries DNS servers to resolve names and diagnose name-resolution problems.</p></div>
+  </details>
+</article>
+<article class="q" id="q122">
+  <div class="qtop"><span class="num">122</span><span class="tag">MD-101 · Compliance</span></div>
+  <p class="qt">On-prem Group Policy applies to domain-joined PCs on the LAN. What is the cloud equivalent that works over the internet?</p>
+  <ul class="opts"><li class="ans"><b>A.</b> Intune configuration profiles</li><li class=""><b>B.</b> WDS</li><li class=""><b>C.</b> EFS</li><li class=""><b>D.</b> Disk Management</li></ul>
+  <details class="rev">
+    <summary>Reveal answer &amp; explanation</summary>
+    <div class="revbody"><p class="correct"><b>Correct answer: A.</b> Intune configuration profiles</p>
+    <p class="exp">Intune configuration profiles deliver settings to devices anywhere over the internet, unlike LAN-bound Group Policy.</p></div>
+  </details>
+</article>
+<footer>Study aid built from the official MD-100 (Windows Client) &amp; MD-101 (Managing Modern Desktops) exam objectives. Good luck!</footer>
+</div>
+</body>
+</html>
